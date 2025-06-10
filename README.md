@@ -1,4 +1,5 @@
-# **Sade Okur v3.1.0**
+# ![alt text](https://i.ibb.co/CKC1TY6h/image.png "SadeOkur-Logo") **Sade Okur v3.1.0**
+
 Web'deki makaleleri ve blog yazılarını dikkat dağıtıcı reklamlardan, menülerden ve diğer gereksiz unsurlardan arındırarak size temiz bir okuma sayfası sunar.
 
 Özellikler:
