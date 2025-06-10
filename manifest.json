@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Sade Okur",
+  "version": "3.1.0",
+  "description": "Tüm tarayıcılar için gelişmiş, dikkat dağıtmayan okuma deneyimi.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_title": "Sade Okur Ayarları",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "ikonlar/icon16.png",
+      "48": "ikonlar/icon48.png"
+    }
+  },
+  "icons": {
+    "16": "ikonlar/icon16.png",
+    "48": "ikonlar/icon48.png",
+    "128": "ikonlar/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "browser-polyfill.js",
+        "Readability.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sadeokur@farukkara.com"
+    }
+  }
+}

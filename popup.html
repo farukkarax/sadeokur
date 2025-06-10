@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sade Okur Ayarları</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h3>Ayarlar</h3>
+    <div class="setting">
+      <label for="theme">Tema:</label>
+      <select id="theme">
+        <option value="light">Açık</option>
+        <option value="sepia">Sepya</option>
+        <option value="dark">Karanlık</option>
+      </select>
+    </div>
+    <div class="setting">
+      <label for="font">Yazı Tipi:</label>
+      <select id="font">
+        <option value="serif">Serif</option>
+        <option value="sans-serif">Sans-Serif</option>
+      </select>
+    </div>
+    <div class="setting">
+      <label for="fontSize">Yazı Boyutu:</label>
+      <input type="number" id="fontSize" min="12" max="30">
+    </div>
+    <button id="activateButton">Sade Modu Değiştir</button>
+  </div>
+  
+  <script src="browser-polyfill.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
