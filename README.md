@@ -1,4 +1,4 @@
-#Sade Okur
+#SadeOkur
 Web'deki makaleleri ve blog yazılarını dikkat dağıtıcı reklamlardan, menülerden ve diğer gereksiz unsurlardan arındırarak size temiz bir okuma sayfası sunar.
 
 Özellikler:
